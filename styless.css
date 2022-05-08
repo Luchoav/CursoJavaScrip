@@ -1,0 +1,16 @@
+body{
+       background: linear-gradient( to left, rgba(230,109,194,1) , rgba(153,45,253,1) );
+}
+
+#formulario{
+    border-radius: 1%;
+    background-color: aqua;
+    height: 300px;
+    width: 50%;
+    padding-top: 20px;
+}
+
+
+#formulario-js{
+    padding-top: 15%;
+}
