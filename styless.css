@@ -14,3 +14,13 @@ body{
 #formulario-js{
     padding-top: 15%;
 }
+
+#celda{
+
+    margin-top: 3px;
+}
+
+.boton{
+    margin-left: 90%;
+    padding-top: 5%;
+}
