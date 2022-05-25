@@ -21,9 +21,8 @@ boton.addEventListener("click",block);
 
 function block() {
     const ingresopassword = document.getElementById("inputPassword");
-    localStorage.setItem("clave",ingresopassword.value);
-
-    if (password =="0110"){
+    let password = localStorage.setItem("clave","0110");
+    if (password == password){
         window.location.href="index.html";
     } else{
         password !== password
