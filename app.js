@@ -1,6 +1,6 @@
 
 let bienvenido = document.getElementById("dinamico")
-bienvenido.innerText="Bienvenido,"
+bienvenido.innerText="Bienvenido"
 let promptnombre = prompt("Ingresa tu nombre");
 let promptapellido = prompt("Ingresa tu apellido");
 if(!promptnombre){
@@ -15,8 +15,8 @@ boton.addEventListener("click",nombre);
 
 function nombre(){
     const ingresonombre = document.getElementById("inputNombre");
-    localStorage.setItem("nombre", ingresonombre.value);
-
+    let usuariojns = JSON.stringify(localStorage.setItem("nombre", ingresonombre.value));
+    
     const ingresoapellido = document.getElementById("inputApellido");
-    localStorage.setItem("apellido", ingresoapellido.value);
+    let apellidojns = JSON.stringify(localStorage.setItem("apellido", ingresoapellido.value));
 }
